@@ -2,17 +2,24 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Avvia estensione",
-            "type": "extensionHost",
+            "name": "Launch",
+            "type": "node",
             "request": "launch",
-            "runtimeExecutable": "${execPath}",
-            "args": [
-                "--extensionDevelopmentPath=${workspaceRoot}"
-            ],
+            "program": "${workspaceRoot}/bin/index.js",
             "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
             "sourceMaps": true,
-            "outDir": "${workspaceRoot}/out",
-            "preLaunchTask": "npm"
+            "outDir": null
         }
     ]
 }

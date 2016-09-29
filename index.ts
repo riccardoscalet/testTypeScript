@@ -5,3 +5,7 @@ export class BananaSuper {
         return "Banana" + " " + s;
     }
 }
+
+let banana = new BananaSuper();
+let bananaString = banana.banana("banana");
+console.log(bananaString);
