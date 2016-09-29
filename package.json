@@ -1,0 +1,19 @@
+{
+  "name": "@darkever/testtypescript",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccardoscalet/testTypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riccardoscalet/testTypeScript/issues"
+  },
+  "homepage": "https://github.com/riccardoscalet/testTypeScript#readme"
+}
