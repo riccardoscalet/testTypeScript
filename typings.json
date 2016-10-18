@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "joi": "registry:dt/joi#9.0.0+20160906140128"
+  }
+}
